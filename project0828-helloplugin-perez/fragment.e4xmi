@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_5Gx6kKsJEei5prj6xv7ciQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_60muUKsJEei5prj6xv7ciQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_HdNNkKsKEei5prj6xv7ciQ" elementId="project0828-helloplugin-perez.command.showhelloworld" commandName="Show Hello World"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_neD68KsKEei5prj6xv7ciQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_r4oBwKsKEei5prj6xv7ciQ" elementId="project0828-helloplugin-perez.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_wYCMUKsKEei5prj6xv7ciQ" elementId="project0828-helloplugin-perez.menu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_zIBAoKsKEei5prj6xv7ciQ" elementId="project0828-helloplugin-perez.handledmenuitem.showhelloworld" label="Show Hello World" command="_HdNNkKsKEei5prj6xv7ciQ"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rYON8KsLEei5prj6xv7ciQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_zskpwKsLEei5prj6xv7ciQ" elementId="project0828-helloplugin-perez.handler.0" contributionURI="bundleclass://project0828-helloplugin-perez/ShowHelloWorldHandler" command="_HdNNkKsKEei5prj6xv7ciQ"/>
+  </fragments>
+</fragment:ModelFragments>

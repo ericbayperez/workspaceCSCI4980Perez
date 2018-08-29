@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VM8zsKsNEei5prj6xv7ciQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_WytQkKsNEei5prj6xv7ciQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_btJxUKsNEei5prj6xv7ciQ" elementId="project0828-message-perez.command.showhello" commandName="Show Hello"/>
+    <elements xsi:type="commands:Command" xmi:id="_947eIKsNEei5prj6xv7ciQ" elementId="project0828-message-perez.command.readfileandshowhello" commandName="Read File and Show Hello"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_mXQjkKsNEei5prj6xv7ciQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_qkoi8KsNEei5prj6xv7ciQ" elementId="project0828-message-perez.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_vCSaAKsNEei5prj6xv7ciQ" elementId="project0828-message-perez.menu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_xCq9YKsNEei5prj6xv7ciQ" elementId="project0828-message-perez.handledmenuitem.showhello" label="Show Hello" command="_btJxUKsNEei5prj6xv7ciQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_CiMIQKsOEei5prj6xv7ciQ" elementId="project0828-message-perez.handledmenuitem.readfileandshowhello" label="Read File and Show Hello" command="_947eIKsNEei5prj6xv7ciQ"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_FTDGUKsOEei5prj6xv7ciQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_J-I8cKsOEei5prj6xv7ciQ" elementId="project0828-message-perez.handler.0" contributionURI="bundleclass://project0828-message-perez/ShowHelloHandler" command="_btJxUKsNEei5prj6xv7ciQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_SeBS0KsOEei5prj6xv7ciQ" elementId="project0828-message-perez.handler.1" contributionURI="bundleclass://project0828-message-perez/UtilFile" command="_947eIKsNEei5prj6xv7ciQ"/>
+  </fragments>
+</fragment:ModelFragments>
