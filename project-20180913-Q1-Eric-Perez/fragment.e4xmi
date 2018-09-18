@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_4jPLMLeXEei2dbQvQ9Mf-A">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6ufh0LeXEei2dbQvQ9Mf-A" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_B5iMMLeYEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.command.readfileandshowhello" commandName="Read file and Show Hello"/>
+    <elements xsi:type="commands:Command" xmi:id="_9PPf8LeaEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.command.reverse" commandName="Reverse"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_H6gQILeYEei2dbQvQ9Mf-A" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_T65f4LeYEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_Ybn5ELeYEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.menu.readfileandshowhello" label="20180913-Q1-Eric-Perez">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_dC170LeYEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.handledmenuitem.readfileandshowhello" label="Read File and Show Hello" command="_B5iMMLeYEei2dbQvQ9Mf-A"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_0zmbQLeYEei2dbQvQ9Mf-A" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_4gN28LeYEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.handler.0" contributionURI="bundleclass://project-20180913-Q1-Eric-Perez/ReadFileAndShowHelloHandler" command="_B5iMMLeYEei2dbQvQ9Mf-A"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_jyTLgLeaEei2dbQvQ9Mf-A" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_n6uZcLeaEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.partdescriptor.simpleview20180913q1ericperez" label="Simple View 20180913 Q1 Eric Perez" contributionURI="bundleclass://project-20180913-Q1-Eric-Perez/view.SimpleView20180913Q1EricPerez">
+      <handlers xmi:id="_N6ff0LecEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.handler.1" contributionURI="bundleclass://project-20180913-Q1-Eric-Perez/Reverse" command="_9PPf8LeaEei2dbQvQ9Mf-A"/>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_1pgdoLeaEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6ra4ULeaEei2dbQvQ9Mf-A" elementId="project-20180913-q1-eric-perez.handledmenuitem.reverse" label="Reverse" command="_9PPf8LeaEei2dbQvQ9Mf-A"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

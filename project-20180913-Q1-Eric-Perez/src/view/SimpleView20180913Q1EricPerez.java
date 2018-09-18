@@ -1,4 +1,4 @@
-package viewer;
+ package view;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
@@ -9,33 +9,32 @@ import org.eclipse.swt.custom.StyledText;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Composite;
 
-public class ViewPartDescriptor {
-	public static final String VIEW_ID = "project0830-part-descriptor-perez.partdescriptor.viewpartdescriptor";
-	public static final String POPUPMENU_ID = "project0830-part-descriptor-perez.popupmenu.mypopupmenu";
+public class SimpleView20180913Q1EricPerez {
+	
+	public static final String VIEW_ID = "project-20180913-q1-eric-perez.partdescriptor.simpleview20180913q1ericperez";
+	public static final String POPUPMENU_ID = "project-20180913-q1-eric-perez.popupmenu.mypopupmenu";
 	// Text box object.
-	private StyledText styledText;
-
+	private StyledText styledText = null;
+	
 	@Inject
-	public ViewPartDescriptor() {
-	}
-
-	// Called after a class is initialized with its constructor.
+	public SimpleView20180913Q1EricPerez() {}
+	
+	
 	@PostConstruct
 	public void postConstruct(Composite parent, EMenuService menuService) {
 		Composite container = new Composite(parent, SWT.NONE);
 		container.setLayout(new FillLayout(SWT.HORIZONTAL));
 		styledText = new StyledText(container, SWT.BORDER);
 		menuService.registerContextMenu(styledText, POPUPMENU_ID);
-		this.styledText.setText("Hello, this string should be reversed");
+		styledText.setText("Hello, this string should be reversed");
 	}
 
 	// Pass an empty string parameter here to clear the text box.
 	public void setText(String str) {
 		this.styledText.setText(str);
-	}
-
-	public void appendText(String str) {
-		this.styledText.append(str);
-	}
+	}			
 	
+	public String getText() {
+		return this.styledText.getText();
+	}
 }

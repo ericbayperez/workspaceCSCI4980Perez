@@ -8,7 +8,7 @@ import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.swt.widgets.Shell;
 
-public class UtilFile {
+public class ReadFileAndShowHelloHandler {
 	
 	@Execute
 	public void execute(Shell shell) {
@@ -17,7 +17,7 @@ public class UtilFile {
 
 	public String testReadFile() {
 	      // A format of file "config.txt" consists of a key-value pair.
-	      List<String> contents = readFile("/Users/ericperez/workspaceCSCI4980/workspaceCSCI4980Perez/project-20180913-Q1-Eric-Perez/src/config.txt");
+	      List<String> contents = readFile("/Users/ericperez/workspaceCSCI4980/workspaceCSCI4980Perez/project0828-message-perez/src/config.txt");
 	      for (int i = 0; i < contents.size(); i++) {
 	         String line = contents.get(i);
 	         System.out.println("[DBG] Line " + i + " - " + line);
