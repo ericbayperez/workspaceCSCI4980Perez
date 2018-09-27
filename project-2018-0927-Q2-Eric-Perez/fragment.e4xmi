@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_z8EAsMKYEeiO97zDOk8aPA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_12S4wMKYEeiO97zDOk8aPA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_5zTg4MKYEeiO97zDOk8aPA" elementId="project-2018-0927-q2-eric-perez.partdescriptor.simpletableview20180927q2ericperez" label="Simple Table View 2018 0927 Q2 Eric Perez" contributionURI="bundleclass://project-2018-0927-Q2-Eric-Perez/view.SimpleTableView20180927Q2EricPerez"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="___13cMKfEeiO97zDOk8aPA" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_DPY8oMKgEeiO97zDOk8aPA" elementId="project-2018-0927-q2-eric-perez.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_Hr91oMKgEeiO97zDOk8aPA" elementId="project-2018-0927-q2-eric-perez.menu.2018-0927-q2-eric-perez" label="2018-0927-Q2-Eric-Perez">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Sbaa4MKgEeiO97zDOk8aPA" elementId="project-2018-0927-q2-eric-perez.handledmenuitem.export" label="Export" command="_bJN4gMKgEeiO97zDOk8aPA"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ZWtZEMKgEeiO97zDOk8aPA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_bJN4gMKgEeiO97zDOk8aPA" elementId="project-2018-0927-q2-eric-perez.command.export" commandName="Export"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_i3YeEMKgEeiO97zDOk8aPA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_lLhD4MKgEeiO97zDOk8aPA" elementId="project-2018-0927-q2-eric-perez.handler.0" contributionURI="bundleclass://project-2018-0927-Q2-Eric-Perez/util.ExportUtil" command="_bJN4gMKgEeiO97zDOk8aPA"/>
+  </fragments>
+</fragment:ModelFragments>
