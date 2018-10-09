@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_HbhRYMwNEeiuc4TtOSA_BQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_IDLHQMwNEeiuc4TtOSA_BQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_KxVWoMwNEeiuc4TtOSA_BQ" elementId="project1009-type-ast-rename-perez.command.refresh" commandName="Refresh"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OSphQMwNEeiuc4TtOSA_BQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_QsdRQMwNEeiuc4TtOSA_BQ" elementId="project1009-type-ast-rename-perez.partdescriptor.simpletableview-renametypeast-1009perez" label="Simple Table View - Rename Type AST - 1009 Perez" contributionURI="bundleclass://project1009-type-ast-rename-perez/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_XEslsMwNEeiuc4TtOSA_BQ" elementId="project1009-type-ast-rename-perez.popupmenu.0">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_YQYVsMwNEeiuc4TtOSA_BQ" elementId="project1009-type-ast-rename-perez.handledmenuitem.refresh" label="Refresh" command="_KxVWoMwNEeiuc4TtOSA_BQ"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_aHtDsMwNEeiuc4TtOSA_BQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_cFEIQMwNEeiuc4TtOSA_BQ" elementId="project1009-type-ast-rename-perez.handler.0" contributionURI="bundleclass://project1009-type-ast-rename-perez/handler.TableRefreshHandler" command="_KxVWoMwNEeiuc4TtOSA_BQ"/>
+  </fragments>
+</fragment:ModelFragments>

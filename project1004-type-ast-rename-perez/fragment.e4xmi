@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_gHP_4MgeEeipM8JMIv0qDA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_i-B_wMgeEeipM8JMIv0qDA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_m0y18MgeEeipM8JMIv0qDA" elementId="project1004-type-ast-rename-perez.command.refresh" commandName="Refresh"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_l_VNkMgeEeipM8JMIv0qDA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_prHi0MgeEeipM8JMIv0qDA" elementId="project1004-type-ast-rename-perez.handler.0" contributionURI="bundleclass://project1004-type-ast-rename-perez/handler.TableRefreshHandler" command="_m0y18MgeEeipM8JMIv0qDA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_0bEeYMgeEeipM8JMIv0qDA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_2JOpUMgeEeipM8JMIv0qDA" elementId="project1004-type-ast-rename-perez.partdescriptor.simpletableview-renametypeast-1004perez" label="Simple Table view - Rename Type AST - 1004 Perez" iconURI="platform:/plugin/project1004-type-ast-rename-perez/icons/sample.png" contributionURI="bundleclass://project1004-type-ast-rename-perez/view.MyTableViewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_k_EN8MgfEeipM8JMIv0qDA" elementId="project1004-type-ast-rename-perez.popupmenu.mypopupmenu" label="My Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_my1RoMgfEeipM8JMIv0qDA" elementId="project1004-type-ast-rename-perez.handledmenuitem.refresh" label="Refresh" iconURI="" command="_m0y18MgeEeipM8JMIv0qDA"/>
+      </menus>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
