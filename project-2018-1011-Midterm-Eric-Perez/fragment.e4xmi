@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_41oCEM2YEeiW067cwaJAEw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5nBCwM2YEeiW067cwaJAEw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_8MxkEM2YEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.partdescriptor.simpletableview20180927midtermericperez" label="Simple Table View 2018 0927 Midterm Eric Perez" contributionURI="bundleclass://project-2018-1011-Midterm-Eric-Perez/view.SimpleTableView20181011MidtermEricPerez">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_aIS1QM2cEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.popupmenu.actions_menu" label="PopupMenu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_dkfPUM2cEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.handledmenuitem.exportselectedrows" label="Export Selected Row(s)" command="_qpsAcM2bEeiW067cwaJAEw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_hHQygM2cEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.handledmenuitem.movetop" label="Move Top" command="_umLEIM2bEeiW067cwaJAEw"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_nkJL0M2bEeiW067cwaJAEw" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_qpsAcM2bEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.command.exportselectedrows" commandName="Export Selected Row(s)"/>
+    <elements xsi:type="commands:Command" xmi:id="_umLEIM2bEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.command.moveto" commandName="Move Top"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_wXoasM2bEeiW067cwaJAEw" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_yQKCkM2bEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.handler.0" contributionURI="bundleclass://project-2018-1011-Midterm-Eric-Perez/handlers.MoveTop" command="_umLEIM2bEeiW067cwaJAEw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_7VczIM2bEeiW067cwaJAEw" elementId="project-2018-1011-midterm-eric-perez.handler.1" contributionURI="bundleclass://project-2018-1011-Midterm-Eric-Perez/handlers.ExportRows" command="_qpsAcM2bEeiW067cwaJAEw"/>
+  </fragments>
+</fragment:ModelFragments>
