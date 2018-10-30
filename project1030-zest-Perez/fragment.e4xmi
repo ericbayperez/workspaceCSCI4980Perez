@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_hMreYNyMEeiUOfDzHIoN6w">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_w1SyANyMEeiUOfDzHIoN6w" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_5-wQ4NyMEeiUOfDzHIoN6w" elementId="project1030-zest-perez.partdescriptor.simplezestview-type-1030-perez" label="Simple Zest View - Type - 1030 - Perez" contributionURI="bundleclass://project1030-zest-Perez/view.SimpleZestView">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_LvAmcNyNEeiUOfDzHIoN6w" elementId="project1030-zest-perez.popupmenu.mypopup" label="My Popup">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_SN0c8NyNEeiUOfDzHIoN6w" elementId="project1030-zest-perez.handledmenuitem.readfileshowgraph" label="Read File + Show Graph" command="_GQrVgNyNEeiUOfDzHIoN6w"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_zhRQENyMEeiUOfDzHIoN6w" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_GQrVgNyNEeiUOfDzHIoN6w" elementId="project1030-zest-perez.command.readfileshowgraph" commandName="Read File Show Graph"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ad7R8NyNEeiUOfDzHIoN6w" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_drvRwNyNEeiUOfDzHIoN6w" elementId="project1030-zest-perez.handler.0" contributionURI="bundleclass://project1030-zest-Perez/handler.ReadFileShowGraphHandler" command="_GQrVgNyNEeiUOfDzHIoN6w"/>
+  </fragments>
+</fragment:ModelFragments>
